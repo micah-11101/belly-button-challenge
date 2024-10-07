@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks,python
+# Created by https://www.toptal.com/developers/gitignore/api/windows,jupyternotebooks,python
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,jupyternotebooks,python
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -184,4 +184,30 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
-# End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/windows,jupyternotebooks,python
