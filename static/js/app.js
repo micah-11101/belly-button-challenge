@@ -32,9 +32,9 @@ function buildCharts(sample) {
     let filtered_sample = sample_data.filter(id => id.id==sample);
 
     // Get the otu_ids, otu_labels, and sample_values
-    let otu_ids = filtered_sample[0].otu_ids;
-    let sample_values = filtered_sample[0].sample_values;
-    let otu_labels = filtered_sample[0].otu_labels;
+    let otu_ids = filtered_sample[0].otu_ids.slice(0,10);
+    let sample_values = filtered_sample[0].sample_values.slice(0,10);
+    let otu_labels = filtered_sample[0].otu_labels.slice(0,10);
 
     // Build a Bubble Chart
     let bubble_chart_data = {
